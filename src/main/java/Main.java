@@ -1,11 +1,10 @@
 import java.util.Random;
 public class Main {
   public static void main(String[] args) {
-  Random random = new Random();
-   int suma = 0;
-    for(int i = 1; i<100;i+=2)
+    for(int celsjusz=0; celsjusz<=300;celsjusz+=20)
       { 
-       suma+=i;
-       
+        int faren=celsjusz*9/5+32;
+        System.out.println("c "+celsjusz+" "+faren);
         }
-    System.out.println("Suma liczb: "+suma); } }
+  }
+}
