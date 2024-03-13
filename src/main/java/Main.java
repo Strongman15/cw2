@@ -6,5 +6,6 @@ public class Main {
         int faren=celsjusz*9/5+32;
         System.out.println("c "+celsjusz+" "+faren);
         }
+ //ćw5
   }
 }
